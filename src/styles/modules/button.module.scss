@@ -1,0 +1,29 @@
+.button {
+	display: inline-block;
+	width: 100%;
+	padding: 0.8rem 2rem;
+	border: none;
+	border-radius: 6px;
+	font-weight: 500;
+	font-size: 1.6rem;
+	text-align: center;
+	text-decoration: auto;
+	&__select {
+		color: var(--text1);
+		font-family: Poppins;
+		padding: 1rem;
+		border: none;
+		background-color: var(--CheckBox);
+
+		width: 150px;
+		cursor: pointer;
+	}
+}
+.button--primary {
+	background-color: var(--AddTsk);
+	color: #0a0a09;
+}
+.button--secondary {
+	background-color: var(--bg-3);
+	color: #2b2727de;
+}

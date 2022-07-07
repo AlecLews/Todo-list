@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--AddTsk: #c9e845;
+	--Title: #7effa6;
+	--text1: #585858;
+	--bg-1: #387632;
+	--bg-2: #75aa3c;
+	--CheckBox: #c9e845;
+	--edit1: #ffdb6f;
+	--gray-2: #dedfe1;
+	--black: black;
+	--Lemon: #cce666;
+}
+html {
+	font-size: 10px;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #163a16;
+}
+* {
+	font-family: 'Poppins', sans-serif;
+}
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
